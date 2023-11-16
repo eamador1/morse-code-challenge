@@ -9,4 +9,3 @@ decoded_message = words.map { |word|
     letters = word.split(" ")
     letters.map { |letter| morse_to_letter[letter] }.join
 }
-
