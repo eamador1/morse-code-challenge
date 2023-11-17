@@ -11,3 +11,8 @@ decoded_message = words.map { |word|
     letters = word.split(" ")
     letters.map { |letter| morse_to_letter[letter] }.join
 }
+
+ decoded_message.join(" ")
+end
+code = ".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ..."
+puts morse_to_english(code)
